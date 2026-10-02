@@ -38,7 +38,7 @@ export const PaymentGateway: React.FC<PaymentGatewayProps> = ({ onAddLog }) => {
   const [recipient, setRecipient] = useState<string>('DEMO-RECIPIENT-001');
   const [amount, setAmount] = useState<string>('250');
   const [currency, setCurrency] = useState<'USD' | 'ETH' | 'PQC_TOKEN'>('USD');
-  const [memo, setMemo] = useState<string>('QuantumShield Security Operations');
+  const [memo, setMemo] = useState<string>('Qmoosa Shield Security Operations');
   const [statusMsg, setStatusMsg] = useState<{ type: 'success' | 'error' | 'info'; text: string } | null>(null);
   const [isProcessing, setIsProcessing] = useState<boolean>(false);
 
@@ -70,7 +70,7 @@ export const PaymentGateway: React.FC<PaymentGatewayProps> = ({ onAddLog }) => {
             currency: 'USD',
             status: 'completed',
             sender: 'Sample Migration Fund',
-            recipient: 'QuantumShield Vault',
+            recipient: 'Qmoosa Shield Vault',
             timestamp: new Date(Date.now() - 3600000 * 4).toLocaleTimeString(),
             memo: 'Initial Post-Quantum Reserve Deposit',
             pqcSignatureHex: 'DEMO-NOT-CRYPTOGRAPHIC-8a92b3c4f5e67d89a1b2c3d4e5f6a7b8c9d0e1f2'
@@ -82,7 +82,7 @@ export const PaymentGateway: React.FC<PaymentGatewayProps> = ({ onAddLog }) => {
             currency: 'PQC_TOKEN',
             status: 'completed',
             sender: 'PQC Liquidity Protocol',
-            recipient: 'QuantumShield Vault',
+            recipient: 'Qmoosa Shield Vault',
             timestamp: new Date(Date.now() - 3600000 * 2).toLocaleTimeString(),
             memo: 'Sample security-token record',
             pqcSignatureHex: 'DEMO-NOT-CRYPTOGRAPHIC-1f2e3d4c5b6a79887766554433221100'
@@ -142,7 +142,7 @@ export const PaymentGateway: React.FC<PaymentGatewayProps> = ({ onAddLog }) => {
           amount: numAmount,
           currency,
           status: 'completed',
-          sender: 'QuantumShield Demo Vault',
+          sender: 'Qmoosa Shield Demo Vault',
           recipient: recipient || 'DEMO-RECIPIENT',
           timestamp: new Date().toLocaleTimeString(),
           memo: memo || 'Demonstration Transfer',
@@ -196,7 +196,7 @@ export const PaymentGateway: React.FC<PaymentGatewayProps> = ({ onAddLog }) => {
           currency: 'USD',
           status: 'completed',
           sender: 'Sample Grant Source',
-          recipient: 'QuantumShield Demo Vault',
+          recipient: 'Qmoosa Shield Demo Vault',
           timestamp: new Date().toLocaleTimeString(),
           memo: 'Post-Quantum Migration Ecosystem Incentive',
           pqcSignatureHex: sigHex

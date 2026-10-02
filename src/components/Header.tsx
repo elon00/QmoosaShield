@@ -124,7 +124,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="space-y-[-4px]">
             <div className="flex items-center gap-3">
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black leading-none tracking-tighter uppercase text-white">
-                QUANTUMSHIELD
+                QMOOSA SHIELD
               </h1>
               <span className="text-[10px] font-mono px-2 py-0.5 bg-[#FF003C] text-white font-bold tracking-widest uppercase">
                 PQC_v1.0

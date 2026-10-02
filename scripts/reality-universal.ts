@@ -1,5 +1,5 @@
 /**
- * QuantumShield repository-internal verification gates.
+ * Qmoosa Shield repository-internal verification gates.
  *
  * Passing these checks demonstrates only the repository assertions below.
  * It is not an independent security audit, FIPS validation, production
@@ -39,7 +39,7 @@ function gate(name: string, check: () => void, details: string): void {
   }
 }
 
-console.log('QuantumShield — repository-internal verification gates');
+console.log('Qmoosa Shield — repository-internal verification gates');
 console.log('Independent audit / FIPS validation / production certification: NOT CLAIMED');
 
 gate(
@@ -103,7 +103,7 @@ gate(
     dsaPair = ml_dsa65.keygen(new Uint8Array(32).fill(0x89));
     assert.strictEqual(dsaPair.publicKey.length, 1952);
     assert.strictEqual(dsaPair.secretKey.length, 4032);
-    const message = Buffer.from('QuantumShield integration gate');
+    const message = Buffer.from('Qmoosa Shield integration gate');
     const signature = ml_dsa65.sign(message, dsaPair.secretKey);
     assert.strictEqual(signature.length, 3309);
     assert.strictEqual(ml_dsa65.verify(signature, message, dsaPair.publicKey), true);
@@ -168,7 +168,7 @@ fs.writeFileSync(
   'reality/URS_SCORECARD.json',
   JSON.stringify(
     {
-      system: 'QuantumShield',
+      system: 'QmoosaShield',
       reportType: 'REPOSITORY_INTERNAL_VERIFICATION',
       timestamp: new Date().toISOString(),
       checksPassed: gates.filter((item) => item.passed).length,

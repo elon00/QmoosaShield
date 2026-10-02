@@ -13,27 +13,27 @@ import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 function run(command: string, args: string[], title: string): void {
   console.log(`▶ ${title}`);
   try {
-    execFileSync(command, args, { stdio: 'inherit' });
+    execFileSync(command, args, { stdio: 'inherit', shell: true });
   } catch {
     console.error(`FAILED: ${title}`);
     process.exit(1);
   }
 }
 
-console.log('QuantumShield — generating repository-internal evidence report');
+console.log('Qmoosa Shield — generating repository-internal evidence report');
 
-run(process.execPath, ['scripts/check-truth.cjs'], 'Truth verifier');
-run(process.execPath, ['scripts/check-status.cjs'], 'Status verifier');
+run('node', ['scripts/check-truth.cjs'], 'Truth verifier');
+run('node', ['scripts/check-status.cjs'], 'Status verifier');
 run('npx', ['tsc', '--noEmit'], 'TypeScript check');
 run('npx', ['tsx', 'src/tests/official-nist-vectors.test.ts'], 'PQC integration/adversarial tests');
-run(process.execPath, ['scripts/audit-crypto.mjs'], 'Cryptographic integration audit');
+run('node', ['scripts/audit-crypto.mjs'], 'Cryptographic integration audit');
 run('npx', ['tsx', 'scripts/reality-universal.ts'], 'Repository-internal verification gates');
 
 const reporterSeed = new Uint8Array(32).fill(0xaa);
 const reporter = ml_dsa65.keygen(reporterSeed);
 
 const payload = {
-  protocol: 'QuantumShield',
+  protocol: 'QmoosaShield',
   reportType: 'REPOSITORY_INTERNAL_EVIDENCE',
   generatedAt: new Date().toISOString(),
   projectStatus: 'RESEARCH_PQC_INTEGRATION_PROTOTYPE',
@@ -75,7 +75,7 @@ fs.writeFileSync(
   JSON.stringify(report, null, 2)
 );
 
-const markdown = `# QuantumShield — Internal Evidence Report
+const markdown = `# Qmoosa Shield — Internal Evidence Report
 
 Generated: \`${payload.generatedAt}\`  
 SHA-256: \`${sha256Hex}\`  
@@ -101,7 +101,7 @@ PQ-shaped placeholder data.
 This report is created and signed by this repository. It is **not**:
 
 - an independent security or cryptographic audit;
-- FIPS validation of QuantumShield as a module;
+- FIPS validation of Qmoosa Shield as a module;
 - proof of official NIST PQC KAT/ACVP vector execution;
 - proof that Project Wycheproof vectors were imported;
 - a production-readiness certificate.

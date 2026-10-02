@@ -82,7 +82,7 @@ function nodeHKDF(ecdhSecret: Buffer, pqSecret: Buffer, infoStr: string): Buffer
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
-    service: "QuantumShield Research Security Server",
+    service: "Qmoosa Shield Research Security Server",
     timestamp: new Date().toISOString(),
     cryptoEngine: "Node crypto X25519 + HKDF-SHA256; PQC handshake is currently a simulation and not a verified ML-KEM implementation",
     pqcStatus: "simulation_not_production_verified",
@@ -521,7 +521,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`[QuantumShield Server] Listening on http://0.0.0.0:${PORT}; server-side placeholder PQ handshake is blocked in production`);
+    console.log(`[Qmoosa Shield Server] Listening on http://0.0.0.0:${PORT}; server-side placeholder PQ handshake is blocked in production`);
   });
 }
 

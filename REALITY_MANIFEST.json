@@ -1,5 +1,5 @@
 {
-  "system": "QuantumShield",
+  "system": "QmoosaShield",
   "version": "1.1.0",
   "status": "RESEARCH_PQC_INTEGRATION_PROTOTYPE",
   "description": "Post-quantum migration research prototype with application-layer ML-KEM/ML-DSA integration and an explicitly non-ML-KEM server handshake demonstration.",

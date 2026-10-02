@@ -238,7 +238,7 @@ ${agent.recommendedTask}
                 AI SPECIALISTS AGENCY & SQUAD HUB
               </h2>
               <p className="text-sm text-slate-300 max-w-3xl leading-relaxed font-sans">
-                Empower QuantumShield with 230+ specialized AI agents from <code className="text-cyan-400">msitarzewski/agency-agents</code>. 
+                Empower Qmoosa Shield with 230+ specialized AI agents from <code className="text-cyan-400">msitarzewski/agency-agents</code>. 
                 Dispatch multi-agent squads, run cryptographic code reviews, build MCP tools, and export agent configs for Claude Code, Cursor, Antigravity, and Gemini.
               </p>
             </div>

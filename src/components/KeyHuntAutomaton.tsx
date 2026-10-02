@@ -542,7 +542,7 @@ export const KeyHuntAutomaton: React.FC = () => {
         qubits = 105 + bitVal * 7;
         quantumMin = (bitVal * 0.045).toFixed(1);
         gates = (Math.pow(bitVal, 3) * 50).toExponential(2);
-        pqcRec = 'ML-KEM-1024 Quantum Shield';
+        pqcRec = 'ML-KEM-1024 Qmoosa Shield';
         sysDesc = 'USTC Zuchongzhi 3.0 (105-Qubit 2D Readout Superconducting QPU)';
         break;
       case 'classiq':

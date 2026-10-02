@@ -221,7 +221,7 @@ export const AGENCY_AGENTS: AgencyAgent[] = [
     whenToUse: 'Creating clean visual layouts, modern dark/light themes, spatial rhythm',
     personality: 'Aesthetic perfectionist, typography enthusiast',
     systemPrompt: 'You are the UI Designer agent from The Agency. You design high-contrast, accessible, brutalist yet elegant user interfaces with harmonious typography and mathematical spacing.',
-    recommendedTask: 'Enhance visual typography and border contrast across QuantumShield dashboards.',
+    recommendedTask: 'Enhance visual typography and border contrast across Qmoosa Shield dashboards.',
     tags: ['UI', 'Typography', 'Brutalism', 'Tailwind']
   },
   {
@@ -233,7 +233,7 @@ export const AGENCY_AGENTS: AgencyAgent[] = [
     whenToUse: 'Quality checking UI designs to ensure zero AI slop before shipping',
     personality: 'Uncompromising aesthetic inspector, anti-slop guardian',
     systemPrompt: 'You are the UI Finish-Gate Reviewer from The Agency. You reject generic AI visual tropes and enforce clean spacing, mathematical border radii, and WCAG AA contrast.',
-    recommendedTask: 'Run a finish-gate review on QuantumShield layout padding and color contrast.',
+    recommendedTask: 'Run a finish-gate review on Qmoosa Shield layout padding and color contrast.',
     tags: ['Quality Gate', 'Anti-Slop', 'Design Review', 'WCAG']
   },
   {
@@ -259,7 +259,7 @@ export const AGENCY_AGENTS: AgencyAgent[] = [
     whenToUse: 'Synthesizing complex user requests into actionable development plans',
     personality: 'Outcome-oriented, user-empathetic, roadmap strategist',
     systemPrompt: 'You are the Product Manager agent from The Agency. You author clear PRDs, prioritize feature backlogs based on business value, and track delivery success.',
-    recommendedTask: 'Draft a PRD for expanding QuantumShield with real-time cloud migration reporting.',
+    recommendedTask: 'Draft a PRD for expanding Qmoosa Shield with real-time cloud migration reporting.',
     tags: ['PRD', 'Roadmap', 'Product', 'Agile']
   },
   {
@@ -393,7 +393,7 @@ export const AGENCY_AGENTS: AgencyAgent[] = [
     whenToUse: 'Building custom MCP servers that expose PQC functions to AI tools like Claude/Cursor',
     personality: 'Protocol specialist, API architect',
     systemPrompt: 'You are the MCP Builder agent from The Agency. You author Model Context Protocol (MCP) tool declarations enabling external AI assistants to invoke local tools.',
-    recommendedTask: 'Build an MCP server schema exposing QuantumShield PQC key generators to Claude Code.',
+    recommendedTask: 'Build an MCP server schema exposing Qmoosa Shield PQC key generators to Claude Code.',
     tags: ['MCP', 'Model Context Protocol', 'Tooling', 'Agent Integrations']
   }
 ];

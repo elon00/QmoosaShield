@@ -36,7 +36,7 @@ export const EncryptedVault: React.FC<EncryptedVaultProps> = ({ logs, onClearLog
 
   const handleExportAuditReport = () => {
     const reportContent = {
-      title: "QuantumShield PQC Audit Log Report",
+      title: "Qmoosa Shield PQC Audit Log Report",
       exportedAt: new Date().toISOString(),
       protocol: "Hybrid X25519 + ML-KEM-768 (Crystals-Kyber)",
       standard: "NIST FIPS 203 algorithm integration reference; application not independently FIPS validated",
@@ -49,7 +49,7 @@ export const EncryptedVault: React.FC<EncryptedVaultProps> = ({ logs, onClearLog
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `quantumshield_pqc_audit_${Date.now()}.json`;
+    a.download = `qmoosashield_pqc_audit_${Date.now()}.json`;
     a.click();
   };
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Standalone Cryptographic Integration Auditor for QuantumShield
+ * Standalone Cryptographic Integration Auditor for Qmoosa Shield
  * Verifies 23 Invariants across:
  * - RFC 5869 HKDF-SHA256
  * - NIST FIPS 203 ML-KEM-768
@@ -16,7 +16,7 @@ import { ml_kem768 } from '@noble/post-quantum/ml-kem.js';
 import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 
 console.log('=====================================================================');
-console.log('⚡ QUANTUMSHIELD // STANDALONE CRYPTOGRAPHIC AUDITOR');
+console.log('⚡ QMOOSA SHIELD // STANDALONE CRYPTOGRAPHIC AUDITOR');
 console.log('=====================================================================\n');
 console.log('Repository integration checks only; no independent audit or official external PQC vector provenance is implied.\n');
 

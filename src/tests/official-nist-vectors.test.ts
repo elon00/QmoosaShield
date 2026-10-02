@@ -7,7 +7,7 @@ import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 import { MLKEM768Engine, MLDSA65Engine, deriveHybridSessionKey } from '../lib/pqcCrypto.js';
 
 console.log('=====================================================================');
-console.log('QUANTUMSHIELD // STANDARDS INTEGRATION & ADVERSARIAL TEST SUITE');
+console.log('QMOOSA SHIELD // STANDARDS INTEGRATION & ADVERSARIAL TEST SUITE');
 console.log('PQC seeds/cases below are repository-defined unless an external vector source is explicitly identified.');
 console.log('=====================================================================\n');
 
@@ -85,7 +85,7 @@ console.log('  ✅ ML-DSA-65 wire invariants verified\n');
 // [TIER 6] ML-DSA-65 Genuine Signature Verification
 // -----------------------------------------------------------------------------
 console.log('[6/8] NIST FIPS 204 ML-DSA-65 Signing & Verification:');
-const message = new TextEncoder().encode('QuantumShield Sovereign Security Assertion');
+const message = new TextEncoder().encode('Qmoosa Shield Sovereign Security Assertion');
 const signature = dsaEngine.sign(message, dsaPair.privateKey);
 assert.strictEqual(signature.length, 3309, 'ML-DSA-65 signature must be 3,309 bytes');
 const isValid = dsaEngine.verify(signature, message, dsaPair.publicKey);
@@ -102,7 +102,7 @@ corruptedSig[100] ^= 0x01;
 assert.strictEqual(dsaEngine.verify(corruptedSig, message, dsaPair.publicKey), false, 'Bit-flipped signature must be rejected');
 
 // 2. Modified message
-const tamperedMessage = new TextEncoder().encode('QuantumShield Sovereign Security Assertion!');
+const tamperedMessage = new TextEncoder().encode('Qmoosa Shield Sovereign Security Assertion!');
 assert.strictEqual(dsaEngine.verify(signature, tamperedMessage, dsaPair.publicKey), false, 'Modified message must be rejected');
 
 // 3. Truncated signature
@@ -120,5 +120,5 @@ assert.strictEqual(hybridKey.length, 32, 'Hybrid derived key must be 32 bytes (2
 console.log('  ✅ Dual Hybrid Session Key derived successfully (32 bytes)\n');
 
 console.log('=====================================================================');
-console.log('ALL 8 QUANTUMSHIELD STANDARDS-INTEGRATION, ADVERSARIAL & HYBRID TESTS PASSED');
+console.log('ALL 8 QMOOSA SHIELD STANDARDS-INTEGRATION, ADVERSARIAL & HYBRID TESTS PASSED');
 console.log('=====================================================================\n');

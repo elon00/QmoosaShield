@@ -764,7 +764,7 @@ export const ResearchCTFArena: React.FC = () => {
                 POST-QUANTUM CRYPTOGRAPHY FELLOWSHIP CERTIFICATE
               </h3>
               <p className="text-xs text-[#00FF41] uppercase tracking-widest font-bold">
-                QUANTUMSHIELD PQC RESEARCH & AGILITY SUITE
+                QMOOSA SHIELD PQC RESEARCH & AGILITY SUITE
               </p>
             </div>
 

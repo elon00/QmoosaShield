@@ -1,4 +1,4 @@
-# QuantumShield
+# Qmoosa Shield
 
 Post-quantum migration research prototype combining a real application-layer ML-KEM/ML-DSA library integration with an intentionally limited server-side handshake demonstration.
 
@@ -6,7 +6,7 @@ Post-quantum migration research prototype combining a real application-layer ML-
 
 **RESEARCH / PQC INTEGRATION PROTOTYPE — NOT CRYPTOGRAPHICALLY CERTIFIED OR PRODUCTION-READY**
 
-QuantumShield currently has two distinct cryptographic surfaces that must not be conflated:
+Qmoosa Shield currently has two distinct cryptographic surfaces that must not be conflated:
 
 1. **Application/client library:** `src/lib/pqcCrypto.ts` uses `@noble/post-quantum` for ML-KEM-768 and ML-DSA-65, with repository tests for wire sizes, encapsulation/decapsulation, signing/verification, tamper rejection, HKDF and AES-GCM helpers.
 2. **Express server handshake:** `/api/pqc/handshake` currently performs real X25519 + HKDF-SHA256 but uses explicitly labeled random PQ-shaped placeholder material. It is **not** an ML-KEM server handshake.
@@ -25,7 +25,7 @@ QuantumShield currently has two distinct cryptographic surfaces that must not be
 
 ### What is not claimed
 
-- FIPS validation of QuantumShield as a cryptographic module
+- FIPS validation of Qmoosa Shield as a cryptographic module
 - independent cryptographic or application security audit
 - official NIST ACVP/KAT provenance for locally constructed ML-KEM/ML-DSA test seeds
 - Project Wycheproof corpus execution unless actual Wycheproof vectors are imported and identified
@@ -86,7 +86,7 @@ See [SECURITY.md](SECURITY.md) and [SECURITY_STATUS.md](SECURITY_STATUS.md).
 
 ## Production-readiness gate
 
-Before calling QuantumShield production-ready, require at minimum:
+Before calling Qmoosa Shield production-ready, require at minimum:
 
 1. real interoperable ML-KEM in the server protocol;
 2. authenticated transcript/key-confirmation design and protocol threat model;

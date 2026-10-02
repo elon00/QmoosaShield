@@ -74,7 +74,7 @@ export const OmniversalMagicBox: React.FC<OmniversalMagicBoxProps> = ({ onNaviga
       timestamp: new Date().toLocaleTimeString(),
       realm: 'VIRTUAL',
       title: 'OMNIVERSAL MAGIC BOX INITIALIZED',
-      detail: 'All 13 QuantumShield modules synchronized across virtual blockchain layers, quantum simulation registers, and physical edge IoT endpoints.',
+      detail: 'All 13 Qmoosa Shield modules synchronized across virtual blockchain layers, quantum simulation registers, and physical edge IoT endpoints.',
       status: 'SUCCESS'
     }
   ]);
@@ -101,7 +101,7 @@ export const OmniversalMagicBox: React.FC<OmniversalMagicBoxProps> = ({ onNaviga
         timestamp: now,
         realm: 'VIRTUAL',
         title: 'PARSING OMNIVERSAL INTENT',
-        detail: `Analyzing desire: "${textToRun}" across 12 QuantumShield engines.`,
+        detail: `Analyzing desire: "${textToRun}" across 12 Qmoosa Shield engines.`,
         status: 'PROCESSING'
       },
       ...prev
@@ -185,7 +185,7 @@ export const OmniversalMagicBox: React.FC<OmniversalMagicBoxProps> = ({ onNaviga
                 OMNIVERSAL FAMILY & AUTOMATON SUPREME COMMAND
               </h2>
               <p className="text-sm text-slate-300 max-w-3xl leading-relaxed font-sans">
-                The ultimate synthesis engine of QuantumShield. Unites all 13 modules—PQC Sandbox, Shor's Lab, Threat Matrix, Benchmarks, AI Audit, Vault, Payments, SHA-224 Engine, CTF Arena, Conway Automaton, The Agency 230+ Specialists, Crypto Exchanges, and Agentic Quantum Algo Generator—to fulfill user and developer desires across virtual digital chains and physical real-world environments.
+                The ultimate synthesis engine of Qmoosa Shield. Unites all 13 modules—PQC Sandbox, Shor's Lab, Threat Matrix, Benchmarks, AI Audit, Vault, Payments, SHA-224 Engine, CTF Arena, Conway Automaton, The Agency 230+ Specialists, Crypto Exchanges, and Agentic Quantum Algo Generator—to fulfill user and developer desires across virtual digital chains and physical real-world environments.
               </p>
             </div>
           </div>

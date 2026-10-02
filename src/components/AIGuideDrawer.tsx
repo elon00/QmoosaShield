@@ -14,7 +14,7 @@ export const AIGuideDrawer: React.FC = () => {
     {
       id: 'init-1',
       sender: 'bot',
-      text: 'Hello! I am your QuantumShield AI Cryptographic Guide. Ask me anything about Shor\'s algorithm, RSA/ECC vulnerabilities, NIST FIPS 203 ML-KEM, or hybrid X25519 key exchanges!',
+      text: 'Hello! I am your Qmoosa Shield AI Cryptographic Guide. Ask me anything about Shor\'s algorithm, RSA/ECC vulnerabilities, NIST FIPS 203 ML-KEM, or hybrid X25519 key exchanges!',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -151,7 +151,7 @@ export const AIGuideDrawer: React.FC = () => {
               </div>
               <div>
                 <h3 className="text-xs font-black text-white uppercase tracking-wider flex items-center gap-1.5">
-                  QUANTUMSHIELD AI GUIDE
+                  QMOOSA SHIELD AI GUIDE
                   <Sparkles className="w-3.5 h-3.5 text-[#00FF41]" />
                 </h3>
                 <p className="text-[9px] font-mono text-white/50 uppercase tracking-widest">VOICE & TEXT ASSISTANT</p>

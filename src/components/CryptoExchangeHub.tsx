@@ -125,7 +125,7 @@ const INITIAL_CRYPTO_ASSETS: CryptoAsset[] = [
   {
     id: 'qshield',
     symbol: 'PQC',
-    name: 'QuantumShield Token',
+    name: 'Qmoosa Shield Token',
     priceUsd: 14.85,
     change24h: 18.75,
     marketCap: 1485000000,

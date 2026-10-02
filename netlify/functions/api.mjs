@@ -16,7 +16,7 @@ function nodeHKDF(ecdhSecret, pqSecret, infoStr) {
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
-    service: "QuantumShield PQC Server",
+    service: "Qmoosa Shield PQC Server",
     timestamp: new Date().toISOString(),
     cryptoEngine: "OpenSSL / Node WebCrypto (X25519 + HKDF-SHA256 + AES-256-GCM + ML-KEM-768)",
     geminiConfigured: Boolean(process.env.GEMINI_API_KEY)

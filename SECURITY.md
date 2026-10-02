@@ -2,7 +2,7 @@
 
 ## Project status
 
-QuantumShield is a post-quantum migration **research / integration prototype**. It is not an independently audited or FIPS-validated production cryptographic module.
+Qmoosa Shield is a post-quantum migration **research / integration prototype**. It is not an independently audited or FIPS-validated production cryptographic module.
 
 ## Reporting
 

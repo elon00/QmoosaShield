@@ -48,7 +48,7 @@ export const KeyExchangeSandbox: React.FC<KeyExchangeSandboxProps> = ({ onAddLog
   const [serverAesKey, setServerAesKey] = useState<Uint8Array | null>(null);
 
   // Messaging Sandbox
-  const [testMessage, setTestMessage] = useState('QuantumShield Secure Hybrid Message 🛡️');
+  const [testMessage, setTestMessage] = useState('Qmoosa Shield Secure Hybrid Message 🛡️');
   const [lastEncryptedHex, setLastEncryptedHex] = useState('');
   const [lastIvHex, setLastIvHex] = useState('');
   const [lastDecryptedText, setLastDecryptedText] = useState('');

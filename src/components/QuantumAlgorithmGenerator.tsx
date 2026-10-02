@@ -87,7 +87,7 @@ export const QuantumAlgorithmGenerator: React.FC = () => {
       pennylane: `import pennylane as qml
 from pennylane import numpy as np
 
-# QuantumShield Autonomous QKAN + PQK Circuit
+# Qmoosa Shield Autonomous QKAN + PQK Circuit
 dev = qml.device("default.qubit", wires=32)
 
 @qml.qnode(dev)
@@ -121,10 +121,10 @@ compiled_qc = transpile(qc, optimization_level=3)`,
 pragma solidity ^0.8.20;
 
 /**
- * @title QuantumShield PQC & QKAN Verifier
+ * @title Qmoosa Shield PQC & QKAN Verifier
  * @notice Validates QKAN-synthesized Projected Quantum Kernel proofs
  */
-contract QuantumShieldQKANVerifier {
+contract QmoosaShieldQKANVerifier {
     bytes32 public immutable pqkKernelRoot;
     
     constructor(bytes32 _kernelRoot) {
@@ -271,7 +271,7 @@ contract QuantumShieldQKANVerifier {
                 </span>
               </div>
               <h2 className="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
-                QUANTUMSHIELD AGENTIC ALGORITHM ENGINE
+                QMOOSA SHIELD AGENTIC ALGORITHM ENGINE
               </h2>
               <p className="text-sm text-slate-300 max-w-3xl leading-relaxed font-sans">
                 Autonomous generation, optimization, and real-time operator framework for present, future, and Shor's quantum algorithms. Powered by 4 breakthrough quantum AI paradigms: <strong>Quantum Kolmogorov-Arnold Networks (QKAN)</strong>, <strong>Projected Quantum Kernels (PQK)</strong>, <strong>Quantum Reservoir Computing (QRC)</strong>, and <strong>Quantum-Enhanced MCMC (Q-MCMC)</strong>.

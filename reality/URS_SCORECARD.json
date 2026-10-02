@@ -1,9 +1,61 @@
 {
-  "system": "QuantumShield",
-  "reportType": "STALE_SCORECARD_INVALIDATED",
-  "status": "REGENERATE_FROM_CURRENT_SOURCE",
+  "system": "QmoosaShield",
+  "reportType": "REPOSITORY_INTERNAL_VERIFICATION",
+  "timestamp": "2026-10-02T15:58:45.620Z",
+  "checksPassed": 8,
+  "totalChecks": 8,
   "independentAudit": false,
   "fipsValidatedModule": false,
   "productionCertification": false,
-  "note": "The old numeric self-score was invalidated. Run npm run reality:universal to generate current repository-internal gate results."
+  "serverMlKemHandshake": false,
+  "gates": [
+    {
+      "gate": 1,
+      "name": "Reality manifest",
+      "passed": true,
+      "details": "machine-readable status keeps external certification claims false"
+    },
+    {
+      "gate": 2,
+      "name": "PQC library randomness boundary",
+      "passed": true,
+      "details": "Math.random() is absent from the selected PQC library path"
+    },
+    {
+      "gate": 3,
+      "name": "ML-KEM-768 integration invariants",
+      "passed": true,
+      "details": "repository integration wire sizes and encapsulation/decapsulation passed"
+    },
+    {
+      "gate": 4,
+      "name": "ML-KEM corrupted-ciphertext behavior",
+      "passed": true,
+      "details": "tested corrupted ciphertext produced a distinct 32-byte decapsulation result"
+    },
+    {
+      "gate": 5,
+      "name": "ML-DSA-65 integration invariants",
+      "passed": true,
+      "details": "repository ML-DSA sign/verify and one tamper case passed"
+    },
+    {
+      "gate": 6,
+      "name": "RFC 5869 known-answer test",
+      "passed": true,
+      "details": "RFC 5869 HKDF-SHA256 Test Case 1 passed"
+    },
+    {
+      "gate": 7,
+      "name": "Server handshake truth boundary",
+      "passed": true,
+      "details": "server labels its PQ-shaped material as non-ML-KEM and blocks the placeholder handshake in production"
+    },
+    {
+      "gate": 8,
+      "name": "Demo payment truth boundary",
+      "passed": true,
+      "details": "financial demo does not claim real settlement or cryptographic signing"
+    }
+  ]
 }

@@ -25,7 +25,7 @@ const tlsOptions = {
   );
   const [systemName, setSystemName] = useState('Example Microservice Environment');
   const [auditorName, setAuditorName] = useState('Internal Demo Analyst');
-  const [auditorOrg, setAuditorOrg] = useState('QuantumShield Research Prototype');
+  const [auditorOrg, setAuditorOrg] = useState('Qmoosa Shield Research Prototype');
   const [auditorId, setAuditorId] = useState('INTERNAL-DEMO');
   const [isLoading, setIsLoading] = useState(false);
   const [auditResult, setAuditResult] = useState<SecurityAuditResult | null>(null);
@@ -137,7 +137,7 @@ const tlsOptions = {
 
   const handleDownloadReport = () => {
     const reportTxt = `================================================================================
-QUANTUMSHIELD PQC READINESS ASSESSMENT
+QMOOSA SHIELD PQC READINESS ASSESSMENT
 Automated Post-Quantum Cryptography Readiness Report
 ================================================================================
 DATE: ${new Date().toUTCString()}
@@ -176,7 +176,7 @@ ASSESSMENT NOTICE: INTERNAL AUTOMATED OUTPUT — NOT AN INDEPENDENT CERTIFICATIO
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `QuantumShield_Audit_Report_${systemName.replace(/[^a-zA-Z0-9]/g, '_')}.txt`;
+    a.download = `QmoosaShield_Audit_Report_${systemName.replace(/[^a-zA-Z0-9]/g, '_')}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   };

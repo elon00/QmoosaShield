@@ -1,5 +1,5 @@
 /**
- * QuantumShield PQC - Main Application Entry
+ * Qmoosa Shield PQC - Main Application Entry
  * Post-Quantum Migration Research & Hybrid Key-Exchange Prototype
  */
 
@@ -30,7 +30,7 @@ export default function App() {
       id: 'init-0',
       timestamp: new Date().toLocaleTimeString(),
       source: 'system',
-      message: 'QuantumShield initialized. X25519 server path active; ML-KEM functionality is not implemented in the current handshake.',
+      message: 'Qmoosa Shield initialized. X25519 server path active; ML-KEM functionality is not implemented in the current handshake.',
       type: 'info'
     }
   ]);
@@ -136,7 +136,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-slate-950/80 py-6 text-center text-xs text-slate-500 font-mono">
-        <p>QuantumShield Research Suite • NIST PQC standards are migration references; current ML-KEM implementation is not verified</p>
+        <p>Qmoosa Shield Research Suite • NIST PQC standards are migration references; current ML-KEM implementation is not verified</p>
       </footer>
     </div>
   );

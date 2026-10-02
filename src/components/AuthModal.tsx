@@ -119,7 +119,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, currentUs
         <div className="space-y-1">
           <div className="flex items-center gap-2 text-[#FF003C] font-mono text-xs font-bold uppercase tracking-widest">
             <ShieldCheck className="w-4 h-4" />
-            <span>QUANTUMSHIELD AUTHENTICATION</span>
+            <span>QMOOSA SHIELD AUTHENTICATION</span>
           </div>
           <h3 className="text-2xl font-black uppercase tracking-tight text-white">
             {currentUser && !currentUser.isAnonymous ? 'ACCOUNT SETTINGS' : mode === 'signin' ? 'USER LOG IN' : 'CREATE ACCOUNT'}
