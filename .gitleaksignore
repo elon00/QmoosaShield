@@ -1,0 +1,4 @@
+# Gitleaks ignore file for historical commits audited and rotated
+e359197efede3356cde943e7cc8d3ad1cfa6bb60:firebase-applet-config.json:gcp-api-key:4
+203de30ef4bf3f9aa76e168dfca100adb43b5806:firebase-applet-config.json:gcp-api-key:4
+203de30ef4bf3f9aa76e168dfca100adb43b5806:server.ts:generic-api-key:384
