@@ -1,0 +1,197 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 63,
+  "manifest": {
+    "bun.lock": {
+      "bytes": 93370
+    },
+    "firebase-applet-config.json": {
+      "bytes": 575
+    },
+    "firebase-blueprint.json": {
+      "bytes": 2704
+    },
+    "firestore.rules": {
+      "bytes": 2033
+    },
+    "index.html": {
+      "bytes": 688
+    },
+    "metadata.json": {
+      "bytes": 529
+    },
+    "netlify.toml": {
+      "bytes": 295
+    },
+    "package-lock.json": {
+      "bytes": 195785
+    },
+    "package.json": {
+      "bytes": 2330
+    },
+    "README.md": {
+      "bytes": 4683
+    },
+    "REALITY_MANIFEST.json": {
+      "bytes": 1819
+    },
+    "SECURITY.md": {
+      "bytes": 1853
+    },
+    "security_spec.md": {
+      "bytes": 669
+    },
+    "SECURITY_STATUS.md": {
+      "bytes": 2087
+    },
+    "server.ts": {
+      "bytes": 23734
+    },
+    "tsconfig.json": {
+      "bytes": 534
+    },
+    "vite.config.ts": {
+      "bytes": 1027
+    },
+    "reality\\URS_EVIDENCE_CERTIFICATE.json": {
+      "bytes": 11554
+    },
+    "reality\\URS_SCORECARD.json": {
+      "bytes": 1862
+    },
+    "scripts\\audit-crypto.mjs": {
+      "bytes": 7336
+    },
+    "scripts\\check-config.cjs": {
+      "bytes": 1186
+    },
+    "scripts\\check-env.cjs": {
+      "bytes": 737
+    },
+    "scripts\\check-lock.cjs": {
+      "bytes": 496
+    },
+    "scripts\\check-status.cjs": {
+      "bytes": 814
+    },
+    "scripts\\check-truth.cjs": {
+      "bytes": 2368
+    },
+    "scripts\\generate-urs-certificate.ts": {
+      "bytes": 4184
+    },
+    "scripts\\reality-universal.ts": {
+      "bytes": 6770
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "src\\App.tsx": {
+      "bytes": 4738
+    },
+    "src\\index.css": {
+      "bytes": 552
+    },
+    "src\\main.tsx": {
+      "bytes": 241
+    },
+    "src\\types.ts": {
+      "bytes": 3064
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    ".github\\workflows\\ci.yml": {
+      "bytes": 651
+    },
+    ".github\\workflows\\deploy.yml": {
+      "bytes": 1368
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    },
+    ".github\\workflows\\security.yml": {
+      "bytes": 846
+    },
+    "docs\\reality\\URS_EVIDENCE_CERTIFICATE.md": {
+      "bytes": 1077
+    },
+    "netlify\\functions\\api.mjs": {
+      "bytes": 11690
+    },
+    "src\\components\\AgencyAgentsHub.tsx": {
+      "bytes": 26217
+    },
+    "src\\components\\AIGuideDrawer.tsx": {
+      "bytes": 9646
+    },
+    "src\\components\\AiMigrationAudit.tsx": {
+      "bytes": 36886
+    },
+    "src\\components\\AuthModal.tsx": {
+      "bytes": 11322
+    },
+    "src\\components\\BenchmarkSuite.tsx": {
+      "bytes": 10112
+    },
+    "src\\components\\CryptoExchangeHub.tsx": {
+      "bytes": 48016
+    },
+    "src\\components\\CryptoToolbox.tsx": {
+      "bytes": 54533
+    },
+    "src\\components\\EncryptedVault.tsx": {
+      "bytes": 8509
+    },
+    "src\\components\\Header.tsx": {
+      "bytes": 20018
+    },
+    "src\\components\\KeyExchangeSandbox.tsx": {
+      "bytes": 23071
+    },
+    "src\\components\\KeyHuntAutomaton.tsx": {
+      "bytes": 73972
+    },
+    "src\\components\\OmniversalMagicBox.tsx": {
+      "bytes": 19912
+    },
+    "src\\components\\PaymentGateway.tsx": {
+      "bytes": 26927
+    },
+    "src\\components\\QDayDoomsdayClock.tsx": {
+      "bytes": 7083
+    },
+    "src\\components\\QuantumAlgorithmGenerator.tsx": {
+      "bytes": 35473
+    },
+    "src\\components\\QuantumRiskMatrix.tsx": {
+      "bytes": 10404
+    },
+    "src\\components\\ResearchCTFArena.tsx": {
+      "bytes": 38988
+    },
+    "src\\components\\ShorSimulator.tsx": {
+      "bytes": 70678
+    },
+    "src\\data\\agencyAgentsData.ts": {
+      "bytes": 23181
+    },
+    "src\\lib\\btcCrypto.ts": {
+      "bytes": 12039
+    },
+    "src\\lib\\firebase.ts": {
+      "bytes": 6675
+    },
+    "src\\lib\\pqcCrypto.ts": {
+      "bytes": 9376
+    },
+    "src\\tests\\official-nist-vectors.test.ts": {
+      "bytes": 7763
+    }
+  },
+  "timestamp": 1794025949
+}
